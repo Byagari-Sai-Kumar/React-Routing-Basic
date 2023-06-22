@@ -1,0 +1,41 @@
+/* Write your CSS code here */
+.headerContainer {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.logoContainer {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 50%;
+  padding-right: 5px;
+}
+
+.titles {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #6d396b;
+  margin: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.unorderedContainer {
+  width: 70%;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
